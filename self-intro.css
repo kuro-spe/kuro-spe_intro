@@ -1,0 +1,82 @@
+body{
+    margin:0px;
+    background-image: url("https://img2.secretchina.com/pic/2018/7-5/p2207373a814990426.jpg");
+    background-size: cover;
+    background-position: center 70%;
+    }
+  .header{
+    width:100%;
+    background-color:#00008B;
+    height:40px;
+    display:flex;
+    align-items:center;
+  }
+  .color{
+    color:white;
+    margin-left:auto;
+  }
+  #demo {
+    text-align: center;
+  }
+  .photo{
+    width:100%;
+    height:100px;
+    display: inline-block;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    animation-name: enter;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    transform: translateX(-1000px);
+  }
+  
+  .content{
+    height:200vh;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  @keyframes enter{
+    0%{
+      transform:translateX(-1500px);
+    }
+    100%{
+      transform:translateX(0px);
+    }
+  }
+  .article{
+    width:400px;
+    height:450px;
+    margin-top: 10px;
+  }
+  .frame{
+      border:2px solid #7FFFD4;
+      display:flex;
+      flex-direction:column;
+  }
+  .word{
+      display:flex;
+  }
+  .avatar{
+    width:50px;
+    height:50px;
+    border-radius:50%;
+    background-color:#7FFF00;
+  }
+  .title{
+      width:400px;
+      height:100px;
+      text-align:center;
+      overflow-y:scroll ;
+  }
+  .poster{
+      display:flex;
+      flex-direction:column;
+  }
+  .input{
+    width:400px;
+    height:80px;
+    background-color:transparent;
+    border:1px solid #7FFFD4;
+  }
